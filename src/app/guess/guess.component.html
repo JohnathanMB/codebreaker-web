@@ -1,0 +1,13 @@
+<div class="guess-win">
+  <h1>CODE BREAKER</h1>
+  <div class="inNumber">
+    <form #breakerForm="ngForm" (ngSubmit)="guess(breakerForm)" class="form-control"  >
+      <input placeholder="Ingresar Número" type="number" id="numGuess" name="numGuess" minlength="1" maxlength="4" required ngModel> 
+      <button type="submit" >Guess</button>   
+    </form>
+  </div>
+  <div *ngIf="ansGuess" class="ansGuess"> 
+    <h2>{{ansGuess}}</h2>
+  </div>
+  
+</div>

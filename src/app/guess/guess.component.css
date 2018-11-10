@@ -1,0 +1,15 @@
+.guess-win{
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    /* IMPORTANTE */
+    text-align: center;
+    background-color: #979696;
+}
+.ansGuess{
+    margin: 5%;
+}
+
+h2{
+    color:azure;
+}
